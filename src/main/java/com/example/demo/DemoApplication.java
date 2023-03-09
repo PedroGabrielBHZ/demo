@@ -11,7 +11,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 
 		// Create the object
-		BaseballCoach theCoach = new BaseballCoach();
+		Coach theCoach = new TrackCoach();
 
 		// Use the object
 		System.out.println(theCoach.getDailyWorkout());
